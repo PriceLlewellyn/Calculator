@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Calculator">
-        <div class="Display"></div>
-        <div class="keys">
-            <button>+</button>
-            <button>-</button>
-            <button>x</button>
-            <button>÷</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>0</button>
-            <button>.</button>
-            <button>AC</button>
-            <button>=</button>
+    <div class="container">
+        <div class="calculator-text">
+            <p name="user-input" id="user-input">0</p>
+        </div>
+        <div class="cal-keys">
+            <buttons type="button" class="key-others operations">AC</buttons>
+            <buttons type="button" class="key-others operations">DEL</buttons>
+            <buttons type="button" class="key-others operations">%</buttons>
+            <buttons type="button" class="key-others operations">/</buttons>
+            <buttons type="button" class="numbers">7</buttons>
+            <buttons type="button" class="numbers">8</buttons>
+            <buttons type="button" class="numbers">9</buttons>
+            <buttons type="button" class="key-others operations">*</buttons>
+            <buttons type="button" class="numbers">4</buttons>
+            <buttons type="button" class="numbers">5</buttons>
+            <buttons type="button" class="numbers">6</buttons>
+            <buttons type="button" class="key-others operations">-</buttons>
+            <buttons type="button" class="numbers">1</buttons>
+            <buttons type="button" class="numbers">2</buttons>
+            <buttons type="button" class="numbers">3</buttons>
+            <buttons type="button" class="key-others operations">+</buttons>
+            <buttons type="button" class="key-zero numbers">0</buttons>
+            <buttons type="button" class="numbers">.</buttons>
+            <buttons type="button" class="key-others operations">=</buttons>
         </div>
     </div>
+    <script type="text/javascript" src="functions.js"></script>
 </body>
 </html>
