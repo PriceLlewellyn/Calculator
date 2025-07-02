@@ -1,0 +1,14 @@
+.calculator {
+
+}
+
+.display {
+
+}
+
+.keys {
+    display: grid;
+    background-color: #999;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+}
